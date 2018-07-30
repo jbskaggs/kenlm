@@ -43,7 +43,7 @@ struct Config {
   WarningAction unknown_missing;
   // What to do when <s> or </s> is missing from the model.
   // If THROW_UP, the exception will be of type util::SpecialWordMissingException.
-  WarningAction sentence_marker_missing;
+  // WarningAction sentence_marker_missing;
 
   // What to do with a positive log probability.  For COMPLAIN and SILENT, map
   // to 0.
